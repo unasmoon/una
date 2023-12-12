@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"_1":
+{
+	"frame": {"x":732,"y":1082,"w":371,"h":459},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":371,"h":459},
+	"sourceSize": {"w":371,"h":459}
+},
+"_2":
+{
+	"frame": {"x":1105,"y":1082,"w":233,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":233,"h":244},
+	"sourceSize": {"w":233,"h":244}
+},
+"_3":
+{
+	"frame": {"x":1105,"y":1328,"w":204,"h":214},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":214},
+	"sourceSize": {"w":204,"h":214}
+},
+"i28gaepqvlo41":
+{
+	"frame": {"x":0,"y":0,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"pngwingcom2":
+{
+	"frame": {"x":0,"y":1082,"w":730,"h":506},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":730,"h":506},
+	"sourceSize": {"w":730,"h":506}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "23.0.0.407",
+	"image": "итог 1_atlas_2.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

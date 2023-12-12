@@ -1,0 +1,392 @@
+body {
+   background: #000000; /* Цвет фона */
+    color: #FFFFFF; /* Цвет текста */
+	overflow-x: hidden;
+}
+
+/* подписи к анимациям */
+
+.one{
+	    color: white;
+        font-size: 20px;
+        font-family: 'Comfortaa' !important;
+		text-decoration:none;
+	    letter-spacing:7px;
+		text-align: center;
+
+}
+
+/* контейнер заголовка и меню*/
+
+.grid-container{
+		display: grid;
+		justify-content: center;
+}
+
+/* заголовок */
+
+.grid-container p {
+        color: white;
+        font-size: 63px;
+        font-family: 'DRUZHOK';
+		text-decoration:none;
+	    letter-spacing:10px;
+		margin-top: 39px;  
+		margin-left: 40px;  
+}
+
+/* меню */
+
+.nav{
+
+}
+
+.nav img {
+        width: 77px;
+}
+
+/* контейнер с изображениями */
+
+.grid-container1 img {
+		padding-bottom: 17px;
+}
+
+/* контейнер двумя строками анимаций */
+
+.grid-container1{
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-template-rows: 50% 50%;
+		margin-top: 37px;
+		justify-items: center;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+
+/* каждая анимация с текстом */
+
+.grid-item {
+        box-sizing: border-box;
+        text-align: center;
+        padding: 26px;
+        color: white;
+}
+
+.button {		    
+ 
+			outline: none; /* Для синий ободки */
+			border: 0;
+			background: transparent;
+			cursor: pointer;
+}
+
+
+/* спрятанное изобр у кнопки1 */
+.button img.animate1{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки1 при наведении */
+.button:hover >img.animate1{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+/* спрятанное изобр у кнопки2 */
+.button img.animate2{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки2 при наведении */
+.button:hover >img.animate2{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+/* спрятанное изобр у кнопки3 */
+.button img.animate3{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки3 при наведении */
+.button:hover >img.animate3{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+
+/* спрятанное изобр у кнопки4 */
+.button img.animate4{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки4 при наведении */
+.button:hover >img.animate4{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+
+/* спрятанное изобр у кнопки5 */
+.button img.animate5{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки5 при наведении */
+.button:hover >img.animate5{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+
+/* спрятанное изобр у кнопки6 */
+.button img.animate6{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки6 при наведении */
+.button:hover >img.animate6{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+/* спрятанное изобр у кнопки7 */
+.button img.animate7{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки7 при наведении */
+.button:hover >img.animate7{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+/* спрятанное изобр у кнопки8 */
+.button img.animate8{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки8 при наведении */
+.button:hover >img.animate8{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+
+.grid-container3 img {
+		padding-bottom: 17px;
+}
+
+
+.grid-container3{
+		display: grid;
+		margin-top: -15px;
+		justify-items: center;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+
+/* каждая анимация с текстом */
+
+.grid-item {
+        box-sizing: border-box;
+        text-align: center;
+        padding: 26px;
+        color: white;
+}
+
+.button {		    
+ 
+			outline: none; /* Для синий ободки */
+			border: 0;
+			background: transparent;
+			cursor: pointer;
+}
+
+
+/* спрятанное изобр у кнопки1 */
+.button img.animate9{		    
+		position:absolute;
+		visibility:hidden;
+}
+/* изменение кнопки1 при наведении */
+.button:hover >img.animate9{
+		margin-left:-35px;
+		margin-top:-15px;
+		visibility:visible;
+}
+
+
+
+
+
+
+
+/* изогнутая линия в футере */
+	
+.footer {
+	margin-top: 100px;  
+	text-align:center;
+}
+
+/* текст по 3 стодбцам и 3 строчкам*/
+
+.grid-container2{
+		display: grid;
+		grid-template-columns: 20% 30% 20%;
+		grid-template-rows: 27% 35% 25%;
+		justify-content: space-evenly;
+		justify-items: center;
+}
+	 
+/* названия соц сетей и год */
+	 
+.grid-container2 h1{
+		color: white;
+        font-size: 40px;
+        font-family: 'DRUZHOK';
+		text-decoration:none;
+	    letter-spacing:10px;
+		text-align:center;
+}
+
+/* пояснение */
+
+.grid-container2 p{
+	    color: white;
+        font-size: 10px;
+        font-family: 'Comfortaa' !important;
+		text-decoration:none;
+	    letter-spacing:7px;
+}
+
+.zapret{
+    margin-top: 10px;
+    margin-left:-10px;
+}
+
+/* названия профилей */
+
+.grid-container2 h2{
+	    color: white;
+        font-size: 25px;
+        font-family: 'Comfortaa' !important;
+		text-decoration:none;
+	    letter-spacing:7px;
+}
+
+
+/* ПЫТАЮСЬ В НАВИГАЦИЮ БОКОВУЮ */
+
+.pushmenu {
+		margin-top: -140px;  
+		margin-left: 1387px;  	
+			outline: none; /* Для синий ободки */
+			border: 0;
+			background: transparent;
+			cursor: pointer;
+
+	
+}
+
+
+
+body.sidebar-opened {overflow:hidden;}
+.hidden-overley {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #000000;
+    opacity:0;
+    width:0;
+    height:0;
+    transition: opacity 1s;
+}
+.hidden-overley.show {
+    height: 100%;
+    width: 100%;
+    opacity:0.6;
+    transition: opacity 1s;
+	
+}
+.sidebar{
+  position: fixed;
+  z-index: 100;
+  width: 1000px;
+  height: 100%;
+  right: -1000px;
+  top:0;
+  background: #000000;
+  transition: right 0.4s ease;
+  overflow: auto;
+  overflow-y: hidden !important;
+}
+
+
+.grid-container5{
+  display: grid;
+  grid-template-columns: 10% 60% 30%;	
+  grid-template-rows: 50% 50%;
+  margin-top: 50px;
+  justify-items:center;
+  padding-right:21px;
+  	overflow-x: hidden;
+}
+
+												
+.grid-container5 a{
+	display: grid;
+	margin-top: 229px;
+	letter-spacing: 8px;
+	margin-left: -100px;
+	text-decoration:none;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-family: 'DRUZHOK';
+}
+
+.animations{
+	margin-top: -48px !important;
+	letter-spacing: 3px !important;
+	margin-left: 380px !important;
+	text-decoration:none;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-family: 'DRUZHOK';
+	letter-spacing: 8px !important;	
+}
+
+.shtuka {
+	
+		width: 318px !important;
+		height: 400px !important;
+    margin: 128px 70px 96px 125px !important;
+
+	
+}
+
+.close {
+    margin: -329px -912px 96px 125px !important;
+	
+}
+
+
+.grid-container5 img{
+	width: 660px;
+    margin: 67px 88px 96px 125px;
+
+}
+
+
+.sidebar.show{
+  right: 0px;
+}

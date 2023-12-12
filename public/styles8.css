@@ -1,0 +1,330 @@
+body {
+   background: #000000; /* Цвет фона */
+    color: #FFFFFF; /* Цвет текста */
+	overflow-x: hidden;
+}
+
+
+b{
+	    color: white;
+        font-size: 17px;
+        font-family: 'Comfortaa' !important;
+		text-decoration:none;
+	    letter-spacing:7px;
+}
+
+
+/* контейнер заголовка и меню*/
+
+.grid-container{
+		display: grid;
+		justify-content: center;
+}
+
+/* заголовок */
+
+.grid-container p {
+        color: white;
+        font-size: 63px;
+        font-family: 'DRUZHOK';
+		text-decoration:none;
+	    letter-spacing:10px;
+		margin-top: 39px;  
+		margin-left: 40px;  
+}
+
+/* меню */
+
+.nav{
+
+}
+
+.nav img {
+        width: 90px;
+}
+
+/* обводка у движения */
+
+.cir9 {
+    width: 10px !important;
+    display: flex !important;
+    margin-top: -127px !important;
+    margin-left: 818px !important;
+}
+	
+
+
+/* разделение на столбцы гиф и текст */
+
+.grid-container1{
+  display: grid;
+  grid-template-columns: 50% 48%;
+  margin-top: 85px;
+  justify-items:center;
+  padding-right:21px;
+}
+
+/* текст по четырём строчкам */
+
+.grid-container1 h1 {
+    display: grid;
+    grid-template-rows: 20% 34% 35% 35%;
+    color: white;
+    font-size: 17px !important;
+    font-family: 'Comfortaa' !important;
+    text-decoration: none;
+    letter-spacing: 7px;
+    align-content: space-between;
+    align-items: end;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+iframe {
+    width: 600px;
+    height: 480px;
+
+}
+
+
+/* звёздочки */
+
+.stars{
+		margin-top: 20px;  
+		margin-left: 925px;  
+}
+
+/* контейнер с созданием анимации и линией */
+
+.grid-container2{
+	display:grid;
+	margin-top: 35px; 
+}
+
+
+/* текст и линия по трём строчкам */
+
+.grid-container2 h2{
+		display: grid;
+		grid-template-rows: 40% 40% 40%;
+	    color: white;
+        font-size: 17px;
+        font-family: 'Comfortaa' !important;
+		text-decoration:none;
+	    letter-spacing:7px;
+        align-content: space-evenly;
+        align-items: center;
+		padding-right:71px;
+		padding-left:76px;
+}
+
+/* линия */
+
+.grid-container2 img {
+    margin-bottom: 28px;
+    margin-top: 40px;
+    margin-left: 640px;
+    width: 100px;
+}
+
+/* второй текст по правому краю */
+
+.textR {
+	display:flex;
+    justify-content: flex-end;	
+}
+
+/* кнопка "К АНИМАЦИЯМ" */
+
+.button {		    
+		display: block;
+		margin: 0 auto; 
+			outline: none; /* Для синий ободки */
+			border: 0;
+			background: transparent;
+			cursor: pointer;
+				color: white;
+				font-size: 50px;
+				font-family: 'DRUZHOK';
+				text-decoration:none;
+				letter-spacing:10px;
+				margin-top:120px;
+}
+
+
+/* спрятанное изобр у кнопки */
+
+.button img{		    
+	 position:absolute;
+     visibility:hidden;
+}
+
+/* изменение кнопки "К АНИМАЦИЯМ" при наведении */
+
+.button:hover >img{
+		margin-top: -40px;  
+		margin-left: -70px;
+		visibility:visible;
+}
+
+
+/* изогнутая линия в футере */
+	
+.footer {
+	margin-top: 100px;  
+	text-align:center;
+}
+
+/* текст по 3 стодбцам и 3 строчкам*/
+
+.grid-container3{
+		display: grid;
+		grid-template-columns: 20% 30% 20%;
+		grid-template-rows: 27% 35% 25%;
+		justify-content: space-evenly;
+		justify-items: center;
+}
+	 
+/* названия соц сетей и год */
+	 
+.grid-container3 h1{
+		color: white;
+        font-size: 40px;
+        font-family: 'DRUZHOK';
+		text-decoration:none;
+	    letter-spacing:10px;
+		text-align:center;
+}
+
+/* пояснение */
+
+.grid-container3 p{
+	    color: white;
+        font-size: 10px;
+        font-family: 'Comfortaa' !important;
+		text-decoration:none;
+	    letter-spacing:7px;
+}
+
+.zapret{
+    margin-top: 10px;
+    margin-left:-10px;
+}
+
+/* названия профилей */
+
+.grid-container3 h2{
+	    color: white;
+        font-size: 25px;
+        font-family: 'Comfortaa' !important;
+		text-decoration:none;
+	    letter-spacing:7px;
+}
+
+/* ПЫТАЮСЬ В НАВИГАЦИЮ БОКОВУЮ */
+
+.pushmenu {
+		margin-top: -148px !important;  
+		margin-left: 1374px !important;  	
+			outline: none; /* Для синий ободки */
+			border: 0;
+			background: transparent;
+			cursor: pointer;
+
+	
+}
+
+
+
+body.sidebar-opened {overflow:hidden;}
+.hidden-overley {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #000000;
+    opacity:0;
+    width:0;
+    height:0;
+    transition: opacity 1s;
+}
+.hidden-overley.show {
+    height: 100%;
+    width: 100%;
+    opacity:0.6;
+    transition: opacity 1s;
+	
+}
+.sidebar{
+  position: fixed;
+  z-index: 100;
+  width: 1000px;
+  height: 100%;
+  right: -1000px;
+  top:0;
+  background: #000000;
+  transition: right 0.4s ease;
+  overflow: auto;
+  overflow-y: hidden !important;
+}
+
+
+.grid-container5{
+  display: grid;
+  grid-template-columns: 10% 60% 30%;	
+  grid-template-rows: 50% 50%;
+  margin-top: 50px;
+  justify-items:center;
+  padding-right:21px;
+  	overflow-x: hidden;
+}
+
+												
+.grid-container5 a{
+	display: grid;
+	margin-top: 229px;
+	letter-spacing: 8px;
+	margin-left: -100px;
+	text-decoration:none;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-family: 'DRUZHOK';
+}
+
+.animations{
+	margin-top: -48px !important;
+	letter-spacing: 3px !important;
+	margin-left: 380px !important;
+	text-decoration:none;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-family: 'DRUZHOK';
+	letter-spacing: 8px !important;	
+}
+
+.shtuka {
+	
+		width: 318px !important;
+		height: 400px !important;
+    margin: 128px 70px 96px 125px !important;
+
+	
+}
+
+.close {
+    margin: -329px -912px 96px 125px !important;
+	
+}
+
+
+.grid-container5 img{
+	width: 660px;
+    margin: 67px 88px 96px 125px;
+
+}
+
+
+.sidebar.show{
+  right: 0px;
+}
